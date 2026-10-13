@@ -1,0 +1,28 @@
+{
+  "name": "tienda-acme-yani",
+  "version": "1.0.0",
+  "description": "ejemplo de implementacion de base de datos mysql con nodejs, expressjs y mysql2",
+  "keywords": [
+    "nodejs",
+    "espressjs",
+    "mysql2",
+    "api"
+  ],
+  "license": "ISC",
+  "author": "yani",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon tienda_acme --quiet",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "mysql2": "^3.24.5"
+  },
+  "devDependencies": {
+    "dotenv": "^18.0.7",
+    "nodemon": "^3.1.14"
+  }
+}
